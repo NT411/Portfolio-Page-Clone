@@ -183,14 +183,42 @@
             transform: none;
         }
     }
+
+
+    .card-button-box button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px Solid black;
+        box-shadow: 5px 5px 0px #4c5a74;
+        font-family: "Audiowide", sans-serif;
+        text-decoration: underline black;
+        font-size: normal;
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        border-radius: 0px;
+        cursor: pointer;
+        color: black;
+    }
+
+    .card-button-box button:hover {
+        transform: scale(1.02);
+    }
+
+    .card-button-box button:active {
+        transform: scale(1);
+        box-shadow: none;
+        border: 2px solid black;
+    }
 </style>
 
 <body>
     <div class="navbar" id="navbar">
-        <a href="index.html" class="btn">About</a>
-        <a href="projects.html" class="btn">Projects</a>
-        <a href="skills.html" class="btn">Skills</a>
-        <a href="contact.html" class="btn active">Contact</a>
+        <a href="index.html" class="link">About</a>
+        <a href="projects.html" class="link">Projects</a>
+        <a href="skills.html" class="link">Skills</a>
+        <a href="contact.html" class="link active">Contact</a>
     </div>
     <section class="section">
         <div class="section-header">
