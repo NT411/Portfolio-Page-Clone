@@ -1,0 +1,117 @@
+  body {
+      margin: 0;
+      font-family: "Audiowide", sans-serif;
+      background-color: rgb(17, 26, 40);
+  }
+
+  /**==============================================*/
+  /*!          NAV CONTAINER                      */
+  /**==============================================*/
+
+  .navbar {
+      overflow: hidden;
+      background-color: rgb(17, 26, 40);
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      border-top: 1px solid #424e62;
+      z-index: 1000000000000000000;
+  }
+
+
+  /**==============================================*/
+  /*!          NAV CONTAINER LINKS                */
+  /**==============================================*/
+
+  .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 15px;
+      font-size: auto;
+      width: 100%;
+      cursor: pointer;
+  }
+
+
+  .navbar a:hover {
+      background-color: #333e64;
+      color: white;
+  }
+
+  .active {
+      background-color: #424e62;
+      color: white;
+  }
+
+  /** ===========================================  */
+  /**!      SECTION       */
+  /** ===========================================*/
+
+  .section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      min-height: 100vh;
+      padding: 40px 20px;
+      box-sizing: border-box;
+  }
+
+
+  .section-header {
+      text-align: center;
+      color: white;
+      margin-bottom: 24px;
+  }
+
+  .section-first-container-inner-box {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+
+  /** =========================================== */
+  /*!              CARD CONTAINER                 */
+  /** =========================================== */
+  .card {
+      border: 1px solid black;
+      background-color: aliceblue;
+      box-shadow: 10px 10px 0px #607293;
+      transition: 0.2s ease;
+  }
+
+  .card:hover {
+      transform: scale(1.02);
+  }
+
+  .card-button-box button {
+      border: 1px Solid black;
+      box-shadow: 5px 5px 0px #4c5a74;
+      font-family: "Audiowide", sans-serif;
+      text-decoration: underline black;
+      font-size: normal;
+      width: 100%;
+      height: 40px;
+      border-radius: 0px;
+      cursor: pointer;
+  }
+
+  .card-button-box button:hover {
+      transform: scale(1.02);
+  }
+
+  .card-button-box button:active {
+      transform: scale(1);
+      box-shadow: none;
+      border: 2px solid black;
+  }
+
+  .section-content-box {
+      font-size: normal;
+      margin-left: 15px;
+      margin-right: 15px;
+  }

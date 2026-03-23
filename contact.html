@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.T</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<style>
+    .section-content-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-second-container-inner-box {
+        visibility: hidden;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        max-width: 800px;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .card-header {
+        padding: 20px;
+    }
+
+    .card-header h1 {
+        border-bottom: 2px solid black;
+        margin: 0;
+        font-weight: 400;
+        color: black;
+        text-align: left;
+    }
+
+    .card-first-box,
+    .card-second-box,
+    .card-button-box {
+        padding: 10px;
+        box-sizing: border-box;
+
+    }
+
+    .card-first-box p {
+        margin: 0 0 24px 0;
+        color: black;
+        line-height: 1.5;
+    }
+
+    .user-details {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .username-input,
+    .useremail-input {
+        flex: 1;
+    }
+
+    .username-input p,
+    .useremail-input p,
+    .message-details p {
+        margin: 0;
+    }
+
+    .username-input input,
+    .useremail-input input,
+    .subject input {
+        width: 100%;
+        height: 42px;
+        padding: 10px 12px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        font-family: inherit;
+    }
+
+    .message-details {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .msg-input input {
+        width: 100%;
+        height: 100px;
+        padding: 10px 12px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        font-family: inherit;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .msg-input textarea {
+        width: 100%;
+        min-height: 120px;
+        padding: 10px 12px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        font-family: inherit;
+        resize: vertical;
+        vertical-align: top;
+    }
+
+    .card-button-box {
+        padding: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .card-button-box p {
+        width: 100%;
+        padding: 10px;
+    }
+
+    @media (max-width: 900px) {
+        .section {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            font-size: normal;
+            margin-bottom: 50px;
+
+        }
+
+        .card {
+            width: 100%;
+            max-width: 90vw;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 6px 6px 0 #607293;
+        }
+
+        .card-header h1 {
+            width: 100%;
+            font-size: 20px;
+            box-sizing: border-box;
+        }
+
+
+        .card-first-box p {
+            width: 100%;
+            font-size: 14px;
+
+            box-sizing: border-box;
+        }
+
+        .card-button-box {
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+
+        }
+
+        .card-button-box p {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        .card-button-box button {
+            width: 100%;
+            height: 44px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        .card-button-box button:hover {
+            transform: none;
+        }
+    }
+</style>
+
+<body>
+    <div class="navbar" id="navbar">
+        <a href="index.html" class="btn">About</a>
+        <a href="projects.html" class="btn">Projects</a>
+        <a href="skills.html" class="btn">Skills</a>
+        <a href="contact.html" class="btn active">Contact</a>
+    </div>
+    <section class="section">
+        <div class="section-header">
+            <h1>CONTACT</h1>
+        </div>
+        <div class="section-content-box">
+            <div class="section-first-container-inner-box">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>
+                            <strong>CONTACT ME</strong>
+                        </h1>
+                    </div>
+                    <div class="card-first-box">
+                        <p>Fill up the contact form or email me directly at <strong>email@nikalastsekov.com</strong></p>
+                        <div class="user-details">
+                            <div class="username-input">
+                                <p>NAME</p>
+                                <p><input></p>
+                            </div>
+                            <div class="useremail-input">
+                                <p>EMAIL</p>
+                                <p><input></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-second-box">
+                        <div class="message-details">
+                            <p>SUBJECT</p>
+                            <p class="subject"><input></p>
+                            <p>MESSAGE</p>
+                            <p class="msg-input"><input></p>
+                        </div>
+                    </div>
+                    <div class="card-button-box">
+                        <p><button>SEND MESSAGE</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script></script>
+</body>
+
+</html>
