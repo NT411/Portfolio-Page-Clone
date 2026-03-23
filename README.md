@@ -17,4 +17,4 @@
 ![Short Phone Preview](phone-comparison.gif)
 ![Short Phone Preview](desktop-comparison.gif)
 
-# TODO: Fix the navbar below 350px width
+
