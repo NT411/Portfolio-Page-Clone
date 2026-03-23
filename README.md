@@ -11,6 +11,7 @@
 
 - Comparison
 
-# Left: Cloned website | Right: Original website 
+# Left: Cloned website
+# Right: Original website 
 ![Short Phone Preview](phone-comparison.gif)
 ![Short Phone Preview](desktop-comparison.gif)
