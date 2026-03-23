@@ -11,7 +11,8 @@
 
 - Comparison
 
-# Left: Cloned website
-# Right: Original website 
+## Clone : https://nt411.github.io/Portfolio-Page-Clone/index.html
+## Original : www.nikalastsekov.com 
+## Left side Clone | Right Side Original 
 ![Short Phone Preview](phone-comparison.gif)
 ![Short Phone Preview](desktop-comparison.gif)
